@@ -1,5 +1,5 @@
 name: Addition_Reusable_workflow
-on: repository_dispatch
+on:
   push:
     branches:
       - main
