@@ -1,5 +1,9 @@
 name: Addition_Reusable_workflow
 on: 
+  push:
+    branches:
+      - main
+  pull_request:
   workflow_dispatch:
   
 jobs:
