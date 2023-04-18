@@ -20,7 +20,7 @@ jobs:
         uses: peter-evans/repository-dispatch@v2
         with:
           token: ${{secrets.ACCESS_TOKEN}}
-          repository: madcloudeq/base-repo
+          repository: madcloudeq/cross-repo-trigger
           event-type: trigger-workflow
 
 
