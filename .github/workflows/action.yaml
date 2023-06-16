@@ -23,7 +23,7 @@ jobs:
          ls -la
          pwd
          git --version
-         git remote add origin https://madcloudeq:${{secrets.ACCESS_TOKEN}}@github.com/madcloudeq/cross-repo-trigger.git
+#         git remote add origin https://madcloudeq:${{secrets.ACCESS_TOKEN}}@github.com/madcloudeq/cross-repo-trigger.git
          chmod +x script.sh
          echo world
          ./script.sh

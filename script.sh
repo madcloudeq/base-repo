@@ -1,8 +1,8 @@
 
 # Set up Git credentials
 git config --global credential.helper store
-#git config --global user.email 'madhav.ahuja@cloudeq.com"  # Replace with your email address
-#git config --global user.name 'madcloudeq"  # Replace with your name
+git config --global user.email "madhav.ahuja@cloudeq.com"  # Replace with your email address
+git config --global user.name "madcloudeq"  # Replace with your name
 
  
 
