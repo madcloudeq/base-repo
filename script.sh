@@ -1,8 +1,3 @@
-repo_url="https://github.com/username/repository.git"  # Replace with your repository URL
-branch="main"  # Replace with your branch name
-file_path="path/to/file.txt"  # Replace with the path to your file
-
- 
 
 # Set up Git credentials
 git config --global credential.helper store
