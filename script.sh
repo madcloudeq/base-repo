@@ -7,7 +7,7 @@ git config --global user.name "madcloudeq"  # Replace with your name
  
 
 # Clone the repository
-git clone "https://github.com/madcloudeq/cross-repo-trigger.git" temp_repo
+git clone "https:\/\/github.com\/madcloudeq\/cross-repo-trigger.git" temp_repo
 cd temp_repo
 
  
