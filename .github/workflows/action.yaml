@@ -24,17 +24,17 @@ jobs:
           event-type: trigger-workflow
 
 
-    - name: Pushes test file
-      uses: dmnemec/copy_file_to_another_repo_action@main
-      env:
-        API_TOKEN_GITHUB: ${{ secrets.ACCESS_TOKEN }}
-      with:
-        source_file: 'mad.txt'
-        destination_repo: 'madcloudeq/cross-repo-trigger'
-        destination_folder: 'test-dir'
-        user_email: 'madhav.ahuja@cloudeq.com'
-        user_name: 'madcloudeq'
-        commit_message: 'A custom message for the commit'
+      - name: Pushes test file
+        uses: dmnemec/copy_file_to_another_repo_action@main
+        env:
+          API_TOKEN_GITHUB: ${{ secrets.ACCESS_TOKEN }}
+        with:
+          source_file: 'mad.txt'
+          destination_repo: 'madcloudeq/cross-repo-trigger'
+          destination_folder: 'test-dir'
+          user_email: 'madhav.ahuja@cloudeq.com'
+          user_name: 'madcloudeq'
+          commit_message: 'A custom message for the commit'
 #  ping-pong:
 #    runs-on: ubuntu-latest
 #    steps:
