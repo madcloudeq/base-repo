@@ -15,10 +15,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: hello
+        uses: actions/checkout@v2
+      - name: push file
         run: |
          touch mad.txt
          echo hello
-         cd ..
          ls -la
          pwd
          chmod +x script.sh
