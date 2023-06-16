@@ -17,6 +17,7 @@ jobs:
       - name: hello
         run: |
               echo hello world
+              git config --global credential.helper store
       - name: Trigger Workflow
         uses: peter-evans/repository-dispatch@v2
         with:
