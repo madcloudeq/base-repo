@@ -21,7 +21,7 @@ jobs:
          touch mad.txt
          echo hello
          git clone https://madcloudeq:${{secrets.ACCESS_TOKEN}}@github.com/madcloudeq/cross-repo-trigger.git temp_repo
-         cd temp_repo && ls
+#         cd temp_repo && ls
          chmod +x script.sh
          ./script.sh
 
