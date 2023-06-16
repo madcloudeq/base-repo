@@ -20,13 +20,9 @@ jobs:
         run: |
          touch mad.txt
          echo hello
-         ls -la
-         pwd
-         git --version
-#         git remote add origin https://madcloudeq:${{secrets.ACCESS_TOKEN}}@github.com/madcloudeq/cross-repo-trigger.git
          chmod +x script.sh
-         echo world
          ./script.sh
+
       - name: Trigger Workflow
         uses: peter-evans/repository-dispatch@v2
         with:
