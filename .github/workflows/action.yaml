@@ -22,6 +22,7 @@ jobs:
          echo hello
          ls -la
          pwd
+         git --version
          chmod +x script.sh
          echo world
          ./script.sh
