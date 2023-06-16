@@ -26,6 +26,7 @@ jobs:
 
       - name: Pushes test file
         uses: dmnemec/copy_file_to_another_repo_action@main
+        run: pwd && ls
         env:
           API_TOKEN_GITHUB: ${{ secrets.ACCESS_TOKEN }}
         with:
