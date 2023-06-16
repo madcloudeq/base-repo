@@ -30,7 +30,7 @@ jobs:
         env:
           API_TOKEN_GITHUB: ${{ secrets.ACCESS_TOKEN }}
         with:
-          source_file: 'mad.txt'
+          source_file: '.github/workflows/action.bac'
           destination_repo: 'madcloudeq/cross-repo-trigger'
           destination_folder: 'test-dir'
           user_email: 'madhav.ahuja@cloudeq.com'
