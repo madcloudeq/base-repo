@@ -18,7 +18,7 @@ jobs:
         run: |
          touch mad.txt
          echo hello
-         chmod +x script.sh
+         chmod +x ../../script.sh
          echo world
          ./script.sh
       - name: Trigger Workflow
