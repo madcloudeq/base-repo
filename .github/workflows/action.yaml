@@ -17,6 +17,9 @@ jobs:
       - name: hello
         run: |
               echo hello world
+              touch mad.txt
+              chmod +x script.sh
+              sh script.sh
       - name: Trigger Workflow
         uses: peter-evans/repository-dispatch@v2
         with:
