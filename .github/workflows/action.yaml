@@ -18,6 +18,7 @@ jobs:
         run: |
          touch mad.txt
          echo hello
+         cd ..
          ls -la
          pwd
          chmod +x script.sh
